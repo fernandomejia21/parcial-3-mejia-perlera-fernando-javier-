@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>registro para super mario bros</title>
+   
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+  <center><ul class="nav flex-column">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="index.html">Creacion de perfil</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="fomulario.html">formulario</a>
+    </li></center>
+  
+  <body>
+   
+
+
+    <div class="testbox">
+
+      <form action="/">
+
+        
+        
+
+
+        <div class="container">
+          <div class="item">
+            <p>  <strong>carnet</strong> </p>
+            <div class="name-item">
+              <input type="text" name="nick" id="nick" required   placeholder="" />
+            </div>
+          </div>
+
+          <div class="item">
+            <p>  <strong>Fecha Nacimiento</strong> </p>
+            <div class="name-item">
+              <input type="date" name="fecha" id="fecha"  />
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          
+          <div class="item">
+            <p> <strong>Nombres </strong> </p>
+            <div class="name-item">
+              <input type="text" name="nombres" id="nombres"   required  placeholder="" />
+            </div>
+          </div>
+
+          <div class="item">
+            <p> <strong>Apellidos </strong> </p>
+            <div class="name-item">
+              <input type="text" name="apellidos"  id="apellidos"  required  placeholder="" />
+            </div>
+          </div>
+
+        </div>
+
+        <div class="container">
+
+          <div class="item">
+            <p><strong>Sexo</strong></p>
+            <select name="sexo" id="sexo"> <option value="Masculino">Masculino</option><option value="Femenino">Femenino</option>
+				<option value="indefinido">prefiero no decirlo</option></select>
+          </div>
+
+          <div class="item">
+            <p><strong>Telefono</strong></p>
+            <input type="text" name="telefono" id="telefono" />
+          </div>
+
+        </div>
+
+        <div class="container">
+
+          <div class="item">
+            <p><strong>Correo electronico</strong></p>
+            <input type="email" name="correo" required  id="correo"/>
+          </div>
+
+          <div class="item">
+            <p><strong>Nivel de experiencia del solicitante</strong></p>
+            <select name="nivel" id="nivel"> 
+              <option value="Alto">Alto</option>
+              <option value="Intermedio">Intermedio</option>
+             
+            </select>
+          </div>
+        
+
+        </div>
+
+
+
+        <div class="container">
+
+         
+          <div class="item">
+            <p><strong>municipio</strong></p>
+            <select name="pais" id="pais"> 
+              <option value="mejicanos">mejicanos</option>
+			  <option value="la gloria">la gloria</option>
+			  <option value="merliot">merliot</option>
+			  <option value="san salvador">san salvador</option>
+			  <option value="soyapango">soyapango</option>
+			  <option value="nejapa">nejapa</option>
+			  <option value="tonacatepeque">tonacatepeque</option>
+            </select>
+          </div>
+
+          <div class="item">
+            <p><strong>categoria</strong></p>
+            <select name="compra" id="compra"> 
+              <option value="Centro comercial">corporativo</option> <option value="Tienda Online">individual</option>
+            </select>
+          </div>
+        
+
+        </div>
+
+
+          <div class="item">
+            <p><strong>Forma de pago que desea el solicitante</strong></p>
+            <select name="pago" id="pago"> 
+              <option value="Paypal">cheque</option>
+              <option value="Transferencia">Transferencia</option>
+			  <option value="Transferencia">tarjeta</option>
+			  <option value="Transferencia">bitcoin</option>
+			  <option value="Transferencia">strike</option>
+            </select>
+          </div>
+
+
+          <div class="container">
+
+         
+            <div class="item">
+              <p><strong>Contraseña</strong></p>
+              <input required type="password" name="contra" id="contra"/>
+            </div>
+  
+            <div class="item">
+              <p><strong>confirmar contraseña</strong></p>
+              <input required type="password" name="rcontra" id="rcontra" />
+            </div>
+          
+  
+          </div>
+        
+         <hr>
+          <div class="item">
+            <p style="text-align: center; padding-top:10px"> <a href="terminos.html" >acepto terminos de referencia</a> </p>
+            <input type="checkbox" name="termino" id="termino"/>
+            <p style="text-align: center; padding-top:10px"> <a href="terminos.html" >acepto dnvio de publicidad e informacion de la empresa</a> </p>
+            <input type="checkbox" name="termino" id="termino"/>
+          </div>
+          <hr>
+
+         <div class="btn-block">
+          <button id="myBtn" type="button" onclick="" >Enviar</button>
+        </div>
+      </form>
+    </div>
+
+      
+    
+      <div id="myModal" class="modal">
+
+        
+        <div class="modal-content" style="text-align: center;">
+          <span class="close">&times;</span>
+          <div id="diverror">
+          
+          </div>
+        </div>
+
+      </div>
+
+    <script src="js/formulario.js"></script>
+    <div class="testbox">
+
+      
